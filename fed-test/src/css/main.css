@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #2A3035;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+#q4Wrapper {
+  background-color: #2A3035;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+#q4Wrapper h1, #q4Wrapper h2 {
+  margin: 0;
+}
+#q4Wrapper h1 {
+  font-size: 48px;
+}
+#q4Wrapper h2 {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+#q4Wrapper header, #q4Wrapper footer {
+  background-color: #22272B;
+}
+#q4Wrapper header {
+  padding: 20px;
+}
+#q4Wrapper footer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#q4Wrapper article {
+  text-align: center;
+}
+#q4Wrapper article img {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+#q4Wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+#q4Wrapper a:hover {
+  transform: scale(1.05);
+}
+#q4Wrapper a span {
+  opacity: 0.5;
+}
+
+.layout_inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #2b3034;
+}
+.layout_header {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.layout_title {
+font-family: "Roboto", sans-serif;
+ background-color: #23272a;
+ color: white;
+ padding: 20px;
+ margin: 20px 0 0 0;
+
+}
+
+.layout_container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* Begin styling the report items here! */
+
+
+.reports {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.reports_item {
+    margin: 15px; 
+ 
+}
+
+.reports_docs {
+  background-color:  #23272a;
+}
+
+.reports_item h2 {
+   text-align: center;
+}
+
+.reports_item h2 a {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.reports_item h2 span {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #919394;
+}
+
+article:last-child {
+align-self:flex-start;
+
+}
+
+
+/* responsive design */
+
+@media screen and (max-width: 968px) {
+    .reports {
+      justify-content: center;
+    }
+  }
